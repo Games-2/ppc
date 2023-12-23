@@ -4,7 +4,7 @@ body {
   height: 3314px;
 }
 header {
-  width: 2011px;
+  width: 100%;
   height: 84px;
   background-color: #007765;
 }
@@ -25,6 +25,40 @@ header span {
   left: 1087px;
   position: relative;
 }
-.hero{
-  background: url(../img/);
+.hero {
+  background: url(../img/image_bg_hero.png);
+  width: 100%;
+  height: 403px;
+  text-align: center;
+}
+.hero-text {
+  color: #fff;
+  position: relative;
+  top: 160px;
+  font-family: Roboto;
+  font-size: 72px;
+}
+.title {
+  color: #007765;
+
+  font-family: Roboto;
+  font-size: 64px;
+}
+.problem {
+  width: 100%;
+  height: 719px;
+  text-align: center;
+}
+.problem .title {
+  position: relative;
+  top: 48px;
+}
+.problem-text {
+  position: relative;
+  top: 16px;
+  left: 451px;
+  font-family: Roboto;
+  font-size: 32px;
+  width: 1110px;
+   text-align: start;
 }
