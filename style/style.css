@@ -62,3 +62,19 @@ header span {
   width: 1110px;
   text-align: start;
 }
+.hero {
+  background: url(../img/image_bg_Hero.png);
+  width: 100%;
+  height: 483px;
+  text-align: center;
+}
+.hero-text {
+  position: relative;
+  top: 128px;
+  width: 893px;
+  height: 228px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: italic;
+}
