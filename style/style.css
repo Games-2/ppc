@@ -26,7 +26,7 @@ header span {
   position: relative;
 }
 .Jumbotron {
-  background: url(../img/image_bg_Jumbotron.png);
+  background: url(../img/bg/image_bg_Jumbotron.png);
   width: 100%;
   height: 403px;
   text-align: center;
@@ -40,7 +40,6 @@ header span {
 }
 .title {
   color: #007765;
-
   font-family: Roboto;
   font-size: 64px;
 }
@@ -63,7 +62,7 @@ header span {
   text-align: start;
 }
 .hero {
-  background: url(../img/image_bg_Hero.png);
+  background: url(../img/bg/image_bg_Hero.png);
   width: 100%;
   height: 483px;
   text-align: center;
@@ -79,6 +78,38 @@ header span {
   font-style: italic;
 }
 .PPC {
-  width: 100%;
+  width: 2011px;
   height: 604px;
+  text-align: center;
+  background-color: #fff;
+}
+.PPC-text-1 {
+  text-align: start;
+  font-family: Roboto;
+  font-size: 32px;
+  width: 930px;
+  position:absolute;
+  left: 614px;
+}
+.PPC-text-2{
+  text-align: start;
+  font-family: Roboto;
+  font-size: 32px;
+  width: 1110px;
+  position: absolute;
+  top: 2035px;
+  left: 451px;
+}
+.PPC-logo {
+  position: absolute;
+  left: 451px;
+}
+.team{
+  width: 100%;
+  height: 845px;
+  background-color: #eee;
+}
+.team-member-card{
+  width: 350px;
+  height: 283px;
 }
