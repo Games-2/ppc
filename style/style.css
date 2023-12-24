@@ -2,6 +2,7 @@ body {
   position: absolute;
   width: 2011px;
   height: 3314px;
+  font-family: Roboto;
 }
 header {
   width: 100%;
@@ -20,7 +21,7 @@ a {
 header span {
   color: #fff;
   text-align: center;
-  font-family: Roboto;
+
   font-size: 24px;
   left: 1087px;
   position: relative;
@@ -35,13 +36,14 @@ header span {
   color: #fff;
   position: relative;
   top: 160px;
-  font-family: Roboto;
+
   font-size: 72px;
 }
 .title {
   color: #007765;
-  font-family: Roboto;
+
   font-size: 64px;
+  text-align: center;
 }
 .problem {
   width: 100%;
@@ -56,7 +58,7 @@ header span {
   position: relative;
   top: 16px;
   left: 451px;
-  font-family: Roboto;
+
   font-size: 32px;
   width: 1110px;
   text-align: start;
@@ -73,36 +75,24 @@ header span {
   width: 893px;
   height: 228px;
   color: #fff;
-  font-family: Roboto;
+
   font-size: 48px;
   font-style: italic;
 }
-.PPC {
-  width: 2011px;
-  height: 604px;
-  text-align: center;
-  background-color: #fff;
-}
-.PPC-text-1 {
-  text-align: start;
-  font-family: Roboto;
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1110px;
+  margin: auto;
+
   font-size: 32px;
-  width: 930px;
-  position: absolute;
-  left: 614px;
 }
-.PPC-text-2 {
-  text-align: start;
-  font-family: Roboto;
-  font-size: 32px;
-  width: 1110px;
-  position: absolute;
-  top: 2035px;
-  left: 451px;
+.intro-logo {
+  margin-right: 48px;
 }
-.PPC-logo {
-  position: absolute;
-  left: 451px;
+.first {
+  display: flex;
 }
 .team {
   width: 100%;
@@ -119,20 +109,18 @@ header span {
   top: 58px;
 }
 .team-member-cards {
-  position: relative;
-  left: 451px;
-  top: 32px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 30px;
+  margin: auto;
   max-width: 1110px;
-  max-height: 596px;
-  height: 596px;
 }
 .name {
   color: #007765;
-  font-family: Roboto;
+
   font-size: 24px;
 }
 .job {
-  font-family: Roboto;
   font-size: 18px;
   font-style: italic;
 }
@@ -148,6 +136,12 @@ footer {
   top: 50px;
   width: 540px;
   color: #fff;
-  font-family: Roboto;
+
   font-size: 18px;
+}
+.team-member-card .name {
+  margin: 0;
+}
+.team-member-card .job {
+  margin: 0;
 }
