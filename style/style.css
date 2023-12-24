@@ -88,10 +88,10 @@ header span {
   font-family: Roboto;
   font-size: 32px;
   width: 930px;
-  position:absolute;
+  position: absolute;
   left: 614px;
 }
-.PPC-text-2{
+.PPC-text-2 {
   text-align: start;
   font-family: Roboto;
   font-size: 32px;
@@ -104,12 +104,35 @@ header span {
   position: absolute;
   left: 451px;
 }
-.team{
+.team {
   width: 100%;
   height: 845px;
+  text-align: center;
   background-color: #eee;
 }
-.team-member-card{
+.team-member-card {
   width: 350px;
   height: 283px;
+}
+.team .title {
+  position: relative;
+  top: 58px;
+}
+.team-member-cards {
+  position: relative;
+  left: 451px;
+  top: 32px;
+  max-width: 1110px;
+  max-height: 596px;
+  height: 596px;
+}
+.name {
+  color: #007765;
+  font-family: Roboto;
+  font-size: 24px;
+}
+.job {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: italic;
 }
