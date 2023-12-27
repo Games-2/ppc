@@ -1,146 +1,165 @@
+/* COMMON STYLES */
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1110px;
+    margin: auto;
+}
+
+.text-container {
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+h2.title {
+    color: #007765;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 0 16px;
+}
+
 body {
-  width: 2011px;
-  height: 3314px;
-  font-family: Roboto;
+    max-width: 2011px; 
+    font-family: Roboto, sans-serif; 
+    margin: 0; 
+    font-size: 32px;
 }
-header {
-  width: 100%;
-  height: 84px;
-  background-color: #007765;
-}
-.logo {
-  position: relative;
-  left: 501px;
-  top: 20px;
-}
-a {
-  text-decoration: none;
-  color: #fff;
-}
-header span {
-  color: #fff;
-  text-align: center;
 
-  font-size: 24px;
-  left: 1087px;
-  position: relative;
+/* HEADER */
+.header {
+    background-color: #007765;
 }
-.Jumbotron {
-  background: url(../img/bg/image_bg_Jumbotron.png);
-  width: 100%;
-  height: 403px;
-  text-align: center;
-}
-.Jumbotron-text {
-  color: #fff;
-  position: relative;
-  top: 160px;
 
-  font-size: 72px;
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    position: relative;
+    left: 50px;
 }
-.title {
-  color: #007765;
 
-  font-size: 64px;
-  text-align: center;
+.nav-item {
+    text-decoration: none;
+    color: #fff;
 }
-.problem {
-  width: 100%;
-  height: 719px;
-  text-align: center;
-}
-.problem .title {
-  position: relative;
-  top: 48px;
-}
-.problem-text {
-  position: relative;
-  top: 16px;
-  left: 451px;
 
-  font-size: 32px;
-  width: 1110px;
-  text-align: start;
+.nav-item:not(:last-child)::after {
+    content: "|";
+    margin-left: 8px;
+    margin-right: 3px;
 }
+
+.header-nav {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+/* END HEADER */
+
+.hero-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 0;
+    background-size: cover;
+    background: url(../img/bg/image_bg_Jumbotron.png) no-repeat center center;
+    background-size: cover;
+}
+
+.hero-banner-text {
+    color: #fff;
+    font-size: 72px;
+}
+
+/* HERO */
 .hero {
-  background: url(../img/bg/image_bg_Hero.png);
-  width: 100%;
-  height: 483px;
-  text-align: center;
+    background: url(../img/bg/image_bg_Hero.png);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 128px 0;
 }
+
 .hero-text {
-  position: relative;
-  top: 128px;
-  width: 893px;
-  height: 228px;
-  color: #fff;
-
-  font-size: 48px;
-  font-style: italic;
+    max-width: 893px;
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    font-style: italic;
 }
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 1110px;
-  margin: auto;
+/* END HERO */
 
-  font-size: 32px;
-}
+/* INTRO */
 .intro-logo {
-  margin-right: 48px;
+    margin-right: 48px;
 }
+
 .first {
-  display: flex;
+    display: flex;
 }
+/* END INTRO */
+
+/* TEAM */
 .team {
-  width: 100%;
-  height: 845px;
-  text-align: center;
-  background-color: #eee;
+    text-align: center;
+    background-color: #eee;
 }
+
 .team-member-card {
-  width: 350px;
-  height: 283px;
+    width: 350px;
 }
-.team .title {
-  position: relative;
-  top: 58px;
-}
+
 .team-member-cards {
-  flex-wrap: wrap;
-  display: flex;
-  gap: 30px;
-  margin: auto;
-  max-width: 1110px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    max-width: 1110px;
 }
+
 .name {
-  color: #007765;
-
-  font-size: 24px;
+    color: #007765;
+    font-size: 24px;
 }
+
 .job {
-  font-size: 18px;
-  font-style: italic;
+    font-size: 18px;
+    font-style: italic;
 }
-footer {
-  width: 100%;
-  height: 176px;
-  background-color: #333;
-  text-align: center;
-}
-.footer-text {
-  position: relative;
-  left: 736px;
-  top: 50px;
-  width: 540px;
-  color: #fff;
 
-  font-size: 18px;
-}
 .team-member-card .name {
-  margin: 0;
+    margin: 0;
 }
+
 .team-member-card .job {
-  margin: 0;
+    margin: 0;
 }
+
+
+/* END TEAM */
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 62px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    max-width: 540px;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* END FOOTER */
